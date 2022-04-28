@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
-//const Puppeteer = require('puppeteer');
-const Puppeteer = require('../../affanBot/node_modules/puppeteer');
+const Puppeteer = require('puppeteer');
 const browser = Puppeteer.launch(
 {args: ['--no-sandbox'] }
 //{headless: false}
